@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Autofac" Version="6.1.0" />
+		<PackageReference Include="FluentValidation" Version="9.5.3" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+		<PackageReference Include="PostSharp" Version="6.8.9" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Shop.DataAccess\Shop.DataAccess.csproj" />
+		<ProjectReference Include="..\Shop.Entities\Shop.Entities.csproj" />
+	</ItemGroup>
+
+</Project>
